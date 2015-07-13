@@ -766,11 +766,6 @@ form input[type="submit"]:hover
         margin-top: .7em;
         width: 29%;
     }
-
-    .center
-    {
-        max-width: 1400px;
-    }
 }
 
 @media screen and (min-width: 1364px){
