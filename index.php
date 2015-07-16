@@ -14,15 +14,10 @@
 					<img src="img/ace_dreamweaver.gif" alt="Adobe Certificate Expert: Dreamweaver" />
 				</a>
 			</header>
-			<article class="introCuadro" id="introSanborns">
-				<div>
-					<h2>Sanborns</h2>
-					<a href="sanborns_artes.php">
-						<!--<span class="icon-signos-01">
-						</span>-->
-					</a>
-				</div>
-			</article>
+			<a href="sanborns_artes.php">
+				<article class="introCuadro" id="introSanborns">	
+				</article>
+			</a>
 			<a href="perfil.php">
 				<article class="introCuadro grey">
 					<h2>Mi perfil</h2>
@@ -30,13 +25,7 @@
 				</article>
 			</a>
 			<article class="introCuadro" id="introCassaInova">
-				<div>
-					<h2>Cassa Inova</h2>
-					<a href="cassainova.php">
-						<!--<span class="icon-signos-01">
-						</span>-->
-					</a>
-				</div>
+				
 			</article>
 			<a href="portafolio.php">
 				<article class="introCuadro grey">
@@ -45,40 +34,16 @@
 				</article>
 			</a>
 			<article class="introCuadro" id="introiShow">
-				<div>
-					<h2>iShow</h2>
-					<a href="ishow.php">
-						<!--<span class="icon-signos-01">
-						</span>-->
-					</a>
-				</div>
+				
 			</article>
 			<article class="introCuadro" id="introHighPreformanceStates">
-				<div>
-					<h2>High Preformance States</h2>
-					<a href="high_preformance_states.php">
-						<!--<span class="icon-signos-01">
-						</span>-->
-					</a>
-				</div>
+				
 			</article>
 			<article class="introCuadro" id="introCasaMorales">
-				<div>
-					<h2>Casa Morales</h2>
-					<a href="casa_morales.php">
-						<!--<span class="icon-signos-01">
-						</span>-->
-					</a>
-				</div>
+				
 			</article>
 			<article class="introCuadro" id="introdigitalPlus">
-				<div>
-					<h2>Digital Plus</h2>
-					<a href="digital_plus.php">
-						<!--<span class="icon-signos-01">
-						</span>-->
-					</a>
-				</div>
+
 			</article>
 			<article class="introCuadro grey">
 				<h2>Contáctame</h2>
@@ -122,13 +87,7 @@
 				</form>
 			</article>
 			<article class="introCuadro" id="introFujifilm">
-				<div>
-					<h2>Fujifilm</h2>
-					<a href="fujifilm.php">
-						<span class="icon-signos-01">
-						</span>
-					</a>
-				</div>
+				
 			</article>
 		</div>
 		<? include "footer.php" ?>

@@ -463,11 +463,33 @@ nav #menuNav li a:hover
 	width: 19em;
 }
 
-.introCuadro div
+.introCuadro
+{
+    filter: url('#grayscale'); /* Versión SVG para IE10, Chrome 17, FF3.5, Safari 5.2 and Opera 11.6 */
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%); /* Para cuando es estándar funcione en todos */
+    filter: Gray(); /* IE4-8 and 9 */
+    transition:all .5s ease-in-out;
+}
+
+.introCuadro:hover
+{
+    filter: url('#grayscale'); /* Versión SVG para IE10, Chrome 17, FF3.5, Safari 5.2 and Opera 11.6 */
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    -ms-filter: grayscale(0%);
+    -o-filter: grayscale(0%);
+    filter: grayscale(0%); /* Para cuando es estándar funcione en todos */
+    filter: none; /* IE4-8 and 9 */
+}
+
+/*.introCuadro div
 {
     background-color: rgba(0,0,0,.5);
     height: 4em;
-    margin-top: 73.5%;
     padding: .5em;
     width: 95%;
     vertical-align: bottom;
@@ -499,7 +521,7 @@ nav #menuNav li a:hover
     margin: .3em 0 0 .3em;
     text-align: left;
     width: 60%;
-}
+}*/
 
 .introCuadro form input, .introCuadro form textarea
 {
