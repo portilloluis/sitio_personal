@@ -18,33 +18,43 @@
 				<article class="introCuadro" id="introSanborns">	
 				</article>
 			</a>
-			<a href="perfil.php">
+			<!--<a href="perfil.php">
 				<article class="introCuadro grey">
 					<h2>Mi perfil</h2>
 					<img src="img/perfil.png" alt="Ver Portafolio de trabajos" class="introIlustra">
 				</article>
+			</a>-->
+			<a href="cassainova.php">
+				<article class="introCuadro" id="introCassaInova">
+				</article>
 			</a>
-			<article class="introCuadro" id="introCassaInova">
-				
-			</article>
-			<a href="portafolio.php">
+			<!--<a href="portafolio.php">
 				<article class="introCuadro grey">
 					<h2>Portafolio</h2>
 					<img src="img/portafolio.png" alt="Ver Portafolio de trabajos" class="introIlustra">
 				</article>
+			</a>-->
+			<a href="">
+				<article class="introCuadro" id="introiShow">
+				</article>
 			</a>
-			<article class="introCuadro" id="introiShow">
-				
-			</article>
-			<article class="introCuadro" id="introHighPreformanceStates">
-				
-			</article>
-			<article class="introCuadro" id="introCasaMorales">
-				
-			</article>
-			<article class="introCuadro" id="introdigitalPlus">
-
-			</article>
+			<a href="high_preformance_states.php">
+				<article class="introCuadro" id="introHighPreformanceStates">	
+				</article>
+			</a>
+			<a href="casa_morales.php">
+				<article class="introCuadro" id="introCasaMorales">
+				</article>
+			</a>
+			<a href="digital_plus.php">
+				<article class="introCuadro" id="introdigitalPlus">
+				</article>
+			</a>			
+			
+			<a href="fujifilm.php">
+				<article class="introCuadro" id="introFujifilm">	
+				</article>
+			</a>
 			<article class="introCuadro grey">
 				<h2>Contáctame</h2>
 				<form action="accion_formulario.php" method="post">
@@ -85,10 +95,7 @@
 						</tr>
 					</table>
 				</form>
-			</article>
-			<article class="introCuadro" id="introFujifilm">
-				
-			</article>
+			</article>	
 		</div>
 		<? include "footer.php" ?>
 	</body>

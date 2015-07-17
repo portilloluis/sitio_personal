@@ -196,6 +196,13 @@ nav #menuNav li a:hover
 #ace_dreamweaver
 {
     margin: 0 auto;
+    opacity:.4;
+    transition: all 1s ease;
+}
+
+#ace_dreamweaver:hover
+{
+    opacity:1;
 }
 
 #ace_dreamweaver img
