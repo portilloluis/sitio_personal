@@ -15,8 +15,7 @@
 				</a>
 			</header>
 			<a href="sanborns_artes.php">
-				<article class="introCuadro" id="introSanborns">	
-				</article>
+				<article class="introCuadro" id="introSanborns"></article>
 			</a>
 			<!--<a href="perfil.php">
 				<article class="introCuadro grey">
@@ -25,8 +24,7 @@
 				</article>
 			</a>-->
 			<a href="cassainova.php">
-				<article class="introCuadro" id="introCassaInova">
-				</article>
+				<article class="introCuadro" id="introCassaInova"></article>
 			</a>
 			<!--<a href="portafolio.php">
 				<article class="introCuadro grey">
@@ -34,26 +32,29 @@
 					<img src="img/portafolio.png" alt="Ver Portafolio de trabajos" class="introIlustra">
 				</article>
 			</a>-->
-			<a href="">
-				<article class="introCuadro" id="introiShow">
-				</article>
+			<a href="ishow.php">
+				<article class="introCuadro" id="introiShow"></article>
 			</a>
 			<a href="high_preformance_states.php">
-				<article class="introCuadro" id="introHighPreformanceStates">	
-				</article>
+				<article class="introCuadro" id="introHighPreformanceStates"></article>
 			</a>
 			<a href="casa_morales.php">
-				<article class="introCuadro" id="introCasaMorales">
-				</article>
+				<article class="introCuadro" id="introCasaMorales"></article>
 			</a>
 			<a href="digital_plus.php">
-				<article class="introCuadro" id="introdigitalPlus">
-				</article>
+				<article class="introCuadro" id="introdigitalPlus"></article>
 			</a>			
-			
 			<a href="fujifilm.php">
-				<article class="introCuadro" id="introFujifilm">	
-				</article>
+				<article class="introCuadro" id="introFujifilm"></article>
+			</a>
+			<a href="gepp.php">
+				<article class="introCuadro" id="introGepp"></article>
+			</a>
+			<a href="ccg.php">
+				<article class="introCuadro" id="introCCG"></article>
+			</a>
+			<a href="dra_gurrola.php">
+				<article class="introCuadro" id="introDraGurrola"></article>
 			</a>
 			<article class="introCuadro grey">
 				<h2>Contáctame</h2>

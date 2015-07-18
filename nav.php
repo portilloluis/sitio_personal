@@ -4,8 +4,6 @@
 			<ul id="menuNav">
 				<li><a href="index.php">Inicio</a></li>
 				<li class="separador">|</li>
-				<li><a href="portafolio.php">Portafolio</a></li>
-				<li class="separador">|</li>
 				<li><a href="perfil.php">Perfil</a></li>
 			</ul>
 		</nav>
