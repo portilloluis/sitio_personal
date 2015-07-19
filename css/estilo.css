@@ -211,6 +211,8 @@ nav #menuNav li a:hover
 
 #descripcion
 {
+    height: auto;
+    padding-bottom: 1.5em;
     text-align: left;
 }
 
@@ -288,7 +290,7 @@ nav #menuNav li a:hover
     background: url(../img/backintro_sanborns.jpg);
 }
 
-#introCasaMorales, #introCassaInova, #introdigitalPlus, #introDraGurrola, #introFujifilm, #introGepp, #introHighPreformanceStates, #introiShow, #introSanborns
+#introCCG, #introCasaMorales, #introCassaInova, #introdigitalPlus, #introDraGurrola, #introFujifilm, #introGepp, #introHighPreformanceStates, #introiShow, #introSanborns,#introDraGurrola
 {
     background-size: 105%;
 }
@@ -670,28 +672,6 @@ form input[type="submit"]:hover
 {
     display:none;
 }
-
-.verMas
-{
-    color: white;
-    position: absolute;
-    left: 15.5em;
-    text-decoration: none;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-    top: 15.5em;
-    transition: all .5s ease-in-out;
-}
-
-.verMas:hover
-{
-    color:#999;
-}
-
-.verMas span
-{
-    font-size: 3em;
-}
-
 @media screen and (min-width: 800px){
     footer
     {
@@ -722,7 +702,12 @@ form input[type="submit"]:hover
         float:left;
         margin:0 1em;
     }
-
+    #descripcion
+    {
+        height:19em;
+        padding-bottom:0;
+        width: 39.4em;
+    }
     #menuExpand
     {
         display: none

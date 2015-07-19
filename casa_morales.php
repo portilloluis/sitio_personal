@@ -13,49 +13,37 @@
 				<h3>Fecha de proyecto</h3>
 				<p>Septiembre de 2013 - Noviembre de 2013</p>
 				<p id="textoPequeno">(Proyecto personal)</p>
-			</article>			
-			<article class="introCuadro item">
-				<img class="imgProyecto" src="img/portafolio/casa_morales/casa_morales_1.jpg" alt="Casa Morales Imagotipo">
-				<a rel="porta" href="img/portafolio/casa_morales/grandes/casa_morales_1.jpg" class="verMas">
-					<span class="icon-signos-01">
-					</span>
-				</a>
 			</article>
-			<article class="introCuadro item">
-				<img class="imgProyecto" src="img/portafolio/casa_morales/casa_morales_2.jpg" alt="Casa Morales tarjetas">
-				<a rel="porta" href="img/portafolio/casa_morales/grandes/casa_morales_2.jpg" class="verMas">
-					<span class="icon-signos-01">
-					</span>
-				</a>
-			</article>
-			<article class="introCuadro item">
-				<img class="imgProyecto" src="img/portafolio/casa_morales/casa_morales_3.jpg" alt="Casa Morales hoja membretada">
-				<a rel="porta" href="img/portafolio/casa_morales/grandes/casa_morales_3.jpg" class="verMas">
-					<span class="icon-signos-01">
-					</span>
-				</a>
-			</article>
-			<article class="introCuadro item">
-				<img class="imgProyecto" src="img/portafolio/casa_morales/casa_morales_4.jpg" alt="Casa Morales Firma electrónica">
-				<a rel="porta" href="img/portafolio/casa_morales/grandes/casa_morales_4.jpg" class="verMas">
-					<span class="icon-signos-01">
-					</span>
-				</a>
-			</article>
-			<article class="introCuadro item">
-				<img class="imgProyecto" src="img/portafolio/casa_morales/casa_morales_5.jpg" alt="Casa Morales uniforme hombre">
-				<a rel="porta" href="img/portafolio/casa_morales/grandes/casa_morales_5.jpg" class="verMas">
-					<span class="icon-signos-01">
-					</span>
-				</a>
-			</article>
-			<article class="introCuadro item">
-				<img class="imgProyecto" src="img/portafolio/casa_morales/casa_morales_6.jpg" alt="Casa Morales uniforme mujer">
-				<a rel="porta" href="img/portafolio/casa_morales/grandes/casa_morales_6.jpg" class="verMas">
-					<span class="icon-signos-01">
-					</span>
-				</a>
-			</article>
+			<a rel="porta" href="img/portafolio/casa_morales/grandes/casa_morales_1.jpg" class="verMas">		
+				<article class="introCuadro item">
+					<img class="imgProyecto" src="img/portafolio/casa_morales/casa_morales_1.jpg" alt="Casa Morales Imagotipo">
+				</article>
+			</a>
+			<a rel="porta" href="img/portafolio/casa_morales/grandes/casa_morales_2.jpg" class="verMas">
+				<article class="introCuadro item">
+					<img class="imgProyecto" src="img/portafolio/casa_morales/casa_morales_2.jpg" alt="Casa Morales tarjetas">
+				</article>
+			</a>
+			<a rel="porta" href="img/portafolio/casa_morales/grandes/casa_morales_3.jpg" class="verMas">
+				<article class="introCuadro item">
+					<img class="imgProyecto" src="img/portafolio/casa_morales/casa_morales_3.jpg" alt="Casa Morales hoja membretada">		
+				</article>
+			</a>
+			<a rel="porta" href="img/portafolio/casa_morales/grandes/casa_morales_4.jpg" class="verMas">
+				<article class="introCuadro item">
+					<img class="imgProyecto" src="img/portafolio/casa_morales/casa_morales_4.jpg" alt="Casa Morales Firma electrónica">	
+				</article>
+			</a>
+			<a rel="porta" href="img/portafolio/casa_morales/grandes/casa_morales_5.jpg" class="verMas">
+				<article class="introCuadro item">
+					<img class="imgProyecto" src="img/portafolio/casa_morales/casa_morales_5.jpg" alt="Casa Morales uniforme hombre">
+				</article>
+			</a>
+			<a rel="porta" href="img/portafolio/casa_morales/grandes/casa_morales_6.jpg" class="verMas">
+				<article class="introCuadro item">
+					<img class="imgProyecto" src="img/portafolio/casa_morales/casa_morales_6.jpg" alt="Casa Morales uniforme mujer">
+				</article>
+			</a>
 		</div>
 		<? include "footer.php" ?>
 		<script src="js/vendor/jquery.fancybox.js"></script>

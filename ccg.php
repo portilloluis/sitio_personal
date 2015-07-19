@@ -13,14 +13,12 @@
 				<h3>Fecha de proyecto</h3>
 				<p>Mayo 2011</p>
 				<p id="textoPequeno">(A través de Pick)</p>
-			</article>			
-			<article class="introCuadro item">
-				<img class="imgProyecto" src="img/portafolio/ccg/ccg_1.jpg" alt="Centro Cultura Guadalupe">
-				<a href="http://www.centroculturalguadalupe.com.mx/" class="verMas" target="_blank">
-					<span class="icon-signos-06">
-					</span>
-				</a>
 			</article>
+			<a href="http://www.centroculturalguadalupe.com.mx/" class="verMas" target="_blank">
+				<article class="introCuadro">
+					<img class="imgProyecto" src="img/portafolio/ccg/ccg_1.jpg" alt="Centro Cultura Guadalupe">
+				</article>
+			</a>
 		</div>
 		<? include "footer.php" ?>
 		<script src="js/vendor/jquery.fancybox.js"></script>

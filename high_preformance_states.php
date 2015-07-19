@@ -13,21 +13,17 @@
 				<h3>Fecha de proyecto</h3>
 				<p>Noviembre de 2013 - Enero de 2014</p>
 				<p id="textoPequeno">(Proyecto personal)</p>
-			</article>			
-			<article class="introCuadro item">
-				<img class="imgProyecto" src="img/portafolio/high_preformance_states/high_preformance_states_1.jpg" alt="Sanborns Vacaciones">
-				<a href="http://www.hpstates.com/" class="verMas" target="_blank">
-					<span class="icon-signos-06">
-					</span>
-				</a>
 			</article>
-			<article class="introCuadro item">
-				<img class="imgProyecto" src="img/portafolio/high_preformance_states/high_preformance_states_2.jpg" alt="Sanborns Vacaciones">
-				<a rel="porta" href="img/portafolio/high_preformance_states/grandes/high_preformance_states_2.jpg" class="verMas">
-					<span class="icon-signos-01">
-					</span>
-				</a>
-			</article>
+			<a href="http://www.hpstates.com/" class="verMas" target="_blank">	
+				<article class="introCuadro item">
+					<img class="imgProyecto" src="img/portafolio/high_preformance_states/high_preformance_states_1.jpg" alt="Sanborns Vacaciones">
+				</article>
+			</a>
+			<a rel="porta" href="img/portafolio/high_preformance_states/grandes/high_preformance_states_2.jpg" class="verMas">
+				<article class="introCuadro item">
+					<img class="imgProyecto" src="img/portafolio/high_preformance_states/high_preformance_states_2.jpg" alt="Sanborns Vacaciones">	
+				</article>
+			</a>
 		</div>
 		<? include "footer.php" ?>
 		<script src="js/vendor/jquery.fancybox.js"></script>
