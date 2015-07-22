@@ -133,7 +133,7 @@ header
 }
 header #tituloSeccion
 {
-    color: #747273;
+    color: #344491;
     font-size: 240%;
     font-family: 'sinkin_sans_light';
     font-weight: normal;
@@ -240,6 +240,11 @@ nav #menuNav li a:hover
     margin-top:2em;
 }
 
+#header_perfil
+{
+    width:19em;
+}
+
 #introCassaInova
 {
     background: url(../img/backintro_cassaInova.jpg);
@@ -342,7 +347,7 @@ nav #menuNav li a:hover
     background: #008039;
 }
 
-.eduCuadro
+
 {
     background-color: #f4f4f4;
     border: 1px solid #cccccc;
@@ -350,19 +355,21 @@ nav #menuNav li a:hover
     width: 19em;
 }
 
-.expCuadro
+.eduCuadro, .expCuadro
 {
     background-color: #f4f4f4;
     border: 1px solid #cccccc;
-    height: 15em;
-    width: 19em;
+    margin:0 auto;
+    max-width: 1000px;
+    padding-bottom:1em;
+    width: 90%;
 }
 
 .expCuadro h3, .habCuadro h3, .perfilDatos h3
 {
     font-family: 'sinkin_sans_light';
     border-bottom: 1px solid #ccc;
-    color: #747273;
+    color: #349642;
     font-weight: normal;
     font-size: 1.5em;
     letter-spacing: -1px;
@@ -373,7 +380,7 @@ nav #menuNav li a:hover
 
 .eduCuadro h4, .expCuadro h4, .habCuadro h4
 {
-    color: #747273;
+    color: #349642;
     font-family: 'sinkin_sans_light';
     font-size: 1.2em;
     margin:.5em auto;
@@ -398,7 +405,7 @@ nav #menuNav li a:hover
 .expTitulo
 {
     border-bottom: 1px solid #ccc;
-    color: #747273;
+    color: #344491;
     font-family: 'sinkin_sans_light';
     font-size: 2.5em;
     height: 2em;
@@ -412,9 +419,10 @@ nav #menuNav li a:hover
 {
     background-color: #f4f4f4;
     border: 1px solid #cccccc;
-    margin-bottom:1em;
-    height: 51em;
-    width: 19em;
+    margin:0 auto 1em auto;
+    max-width: 1000px;
+    padding-bottom:1.5em;
+    width: 90%;
 }
 
 .icon-signos-01:before {
@@ -459,7 +467,7 @@ nav #menuNav li a:hover
 {
     display: block;
     margin:0 auto;
-    width: 77%;
+    width:14em;
 }
 
 .introCuadro, .perfilDatos
@@ -493,44 +501,6 @@ nav #menuNav li a:hover
     filter: grayscale(0%); /* Para cuando es estándar funcione en todos */
     filter: none; /* IE4-8 and 9 */
 }
-
-/*.introCuadro div
-{
-    background-color: rgba(0,0,0,.5);
-    height: 4em;
-    padding: .5em;
-    width: 95%;
-    vertical-align: bottom;
-}
-
-.introCuadro div a
-{
-    color:white;
-    float: right;
-    font-size: 4.4em;
-    margin: -.35em 0 0 0;
-    text-decoration: none;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-    transition: all .5s ease-in-out;
-}
-
-.introCuadro div a:hover
-{
-    color:#999;
-    transform: rotate(90deg);
-}
-
-.introCuadro div h2
-{
-    color: white;
-    float: left;
-    font-size: .9em;
-    letter-spacing: 0;
-    margin: .3em 0 0 .3em;
-    text-align: left;
-    width: 60%;
-}*/
-
 .introCuadro form input, .introCuadro form textarea
 {
     background-color:#d1d1d1;
@@ -678,7 +648,7 @@ form input[type="submit"]:hover
         margin-top:1em;
     }
 
-    header, .eduCuadro, .expCuadro, .habCuadro, .introCuadro, .perfilDatos 
+    header, .habCuadro, .introCuadro, .perfilDatos 
     {
         display:inline-block;
         vertical-align: top;
@@ -716,41 +686,20 @@ form input[type="submit"]:hover
     .center
     {
         width:90%;
-    }
-
-    .circuloGris, .circuloVerde
-    {
-        height: 1.5em;
-        margin:0 .7em;
-        width: 1.5em;
-    }
-    
-    .eduCuadro, .expCuadro, .habCuadro
-    {
-        margin:0;
-        width:39.4em;
-    }
-    
-    .eduCuadro
-    {
-        height:15em;
-    }
-
+    }    
     .habCuadro
     {
-        height:55em
+        margin:0;
     }
-
-    .ilustracion
-    {
-        width:40%;
-    }
-    
-    .lineaDiv
+    /*.lineaDiv
     {
         width:39.4em;
+    }*/
+    .perfilDatos
+    {
+        max-width: 800px;
+        width: 45%;
     }
-
     .separador
     {
         color:white;
@@ -764,7 +713,7 @@ form input[type="submit"]:hover
         font-size: 2em;
         margin: 4.6em 0 0 6.2em;
     }
-    header, .perfilDatos 
+    header 
     {
         width:39.4em;
     }
@@ -779,51 +728,46 @@ form input[type="submit"]:hover
         margin-top: .7em;
         width: 29%;
     }
-}
-
-@media screen and (min-width: 1364px){
-    .eduCuadro, .expCuadro, .habCuadro
+    #columna_educacion, #columna_habilidades
     {
-        height: 9em;
-        width: 59.5em;
+        display: inline-block;
+        vertical-align: top;
     }
-
-    .eduCuadro{
-        height:15em;
-    }
-
-    .habCuadro
+    #columna_educacion
     {
-        height:55em
+        width: 50%;
     }
-
-    .lineaDiv
+    #columna_habilidades
     {
-        width:59.5em;
+        width: 30%;
     }
-    
 }
 
 @media screen and (min-width: 1400px){
-    .perfilDatos
+    /*.lineaDiv
     {
-        width: 19em;
+        width:59.5em;
+    }*/
+    .info_certificado, .linkCertificado
+    {
+        display:inline-block;
+        vertical-align: top;
     }
+    .info_certificado
+    {
+        width: 55%;
+    }
+    .linkCertificado
+    {
+        width: 16em;
+    }
+
 }
 
 @media screen and (min-width: 1700px){
-    .eduCuadro, .expCuadro, .habCuadro
-    {
-        width: 80em;
-    }
-    
-    .lineaDiv
+
+    /*.lineaDiv
     {
         width:80em;
-    }
-
-    .perfilDatos
-    {
-        width:39.4em;
-    }
+    }*/
 }
